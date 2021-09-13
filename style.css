@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    /* background: burlywood; */
+    padding: 15px;
+    display: flex;
+    box-shadow: 1px 1px 5px;
+}
+.header h1{
+    font-size: 40px;
+}
+#search
+{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius:20px;
+    border: solid 1px black;
+    margin-left: 30px;
+    width:50%;
+    box-shadow: 1px 1px 5px;
+    
+}
+.btn-div{
+    text-align: right;
+    margin:20px 50px;
+}
+#add-btn1{
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.text{
+    margin-left: 70px;
+    /* height: 50px; */
+    box-shadow:0.5px 0.5px 10px;
+    height: 200px;
+    width: 250px;
+    padding: 50px 25px;
+    font-size: 18px;
+}
+.operation{
+    position:relative;
+    /* background-color: red; */
+    top: 40px;
+       
+}
+.edit
+{
+    color:white;
+    font-size: 15px;
+    /* border-style: none; */
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid 0.2px black;
+    background-color: green;
+    margin-left:240px;
+
+}
+.delete
+{
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid 0.2px black;
+    background-color:red;
+}
+.hidden
+{
+    display: none;
+}
+.note
+{
+    float: left;
+    /* background-color: rosybrown; */
+}
+
+.main{
+    margin-left: 70px;
+    /* height: 50px; */
+    box-shadow:0.5px 0.5px 10px;
+    height: 200px;
+    width: 250px;
+    padding: 50px 25px;
+    font-size: 18px;
+}
